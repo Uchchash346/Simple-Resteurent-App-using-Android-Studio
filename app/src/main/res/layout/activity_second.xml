@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFEB3B"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="177dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Ordered Food List"
+
+        android:textColor="#190303"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#190303"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Convert"
+        />
+    <TextView
+        android:id="@+id/doller"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#190303"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="CHECKOUT"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

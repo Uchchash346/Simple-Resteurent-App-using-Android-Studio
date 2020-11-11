@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:text="Food menue" />
+
+
+    <!--   Customized RadioButtons  -->
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/Mexican"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mexican"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+
+            android:textSize="20dp" />
+        <RadioButton
+            android:id="@+id/Indian"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Indian"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+
+            android:textSize="20dp" />
+        <RadioButton
+            android:id="@+id/Korean"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Korean"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/Continetial"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Continetial"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Selected"
+        android:id="@+id/button"
+        android:onClick="onclickbuttonMethod"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
